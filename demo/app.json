@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "df-plugin": {
+      "version": "1.0.1",
+      "provider": "wxf406772c9913e2a7",
+      "export": "df-export.js",
+      "genericsImplementation": {
+        "df-webview": {
+          "df-view": "./components/df-ad-web-view/df-ad-web-view"
+        }
+      }
+    }
+  }
+}

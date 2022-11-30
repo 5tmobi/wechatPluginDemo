@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "df-plugin": "plugin://df-plugin/df-plugin"
+  }
+}

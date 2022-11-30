@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="usermotto" style="width: 100%;">
+    <!--调用插件-->
+    <df-plugin ad-id="22" theme="white" bind:onadload="onAdLoad" bind:onadclose="onAdClose" bind:onaderror="onAdError" bind:onadshow="onAdShow" bind:onadclick="onAdClick" />
+  </view>
+
+</view>
